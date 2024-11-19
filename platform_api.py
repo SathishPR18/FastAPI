@@ -11,7 +11,7 @@ app = FastAPI()
 
 # Google Sheets API configuration
 SERVICE_ACCOUNT_FILE = 'D:/FastAPI/gsheetcreds.json'
-SPREADSHEET_ID = '10mXRRhQ0MWphsSTdCKgBFOpQYIUZd5wwSCfHRxsc9Lo'
+SPREADSHEET_ID = '1fg0mb_gSqe_DIvz4OKDOmUkpH7sYSlbsS0K2NsRZvrA'
 RANGE_NAME = 'sensor_data!A2:D'  # Adjusted to allow dynamic column range
 from google.oauth2 import service_account
 import json
